@@ -1,0 +1,48 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Vaahan Rakshak</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="fab_content">Fab Action</string>
+    <string name="image_viewww">Something</string>
+
+    <string name="menu_transform">Transform</string>
+    <string name="menu_reflow">Reflow</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_settings">Settings</string>
+
+    <string name="mapbox_access_token" translatable="false" tools:ignore="UnusedResources">pk.eyJ1Ijoic2F1YmVyLWdvdXJhdiIsImEiOiJjbHRzb2JoMDQwZmhmMnFxcGdwc20wanR6In0.5OF2l0xuyPEwwRZ_BjgTEg</string>
+
+    <string name="carList">Car List</string>
+    <string name="sele">Car List</string>
+    <string name="title_activity_user_login">userLogin</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="drivestatus">DriveStatus</string>
+    <string name="select_car">Select Car</string>
+    <string name="drStatusDr">Status: Driving</string>
+    <string name="drStatusSt">Status: Not Driving</string>
+    <string name="reg_num">Registration Number</string>
+    <string name="mob">Mobile Number</string>
+    <string name="verify_captcha">Verify Captcha</string>
+    <string name="cont">Continue</string>
+
+    <string name="default_web_client_id">GOOGLE CLOUD 0Auth 2.0 CLIENT ID GOES HERE</string>
+    <string name="report_an_accident">Report an Accident !!</string>
+    <string name="registration_number_of_vehicle">Registration Number of Vehicle</string>
+    <string name="submit">Submit</string>
+    <string name="adding_car">Adding Car</string>
+    <string name="submit_report">Submit Report</string>
+    <string name="report_image">Report Image</string>
+    <string name="alert">Alert</string>
+    <string name="alert_desc">Accident Prone Zone Ahead</string>
+</resources>

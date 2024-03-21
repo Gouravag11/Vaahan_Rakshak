@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "698966578503",
+    "firebase_url": "https://accident-analysis-sauber-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "accident-analysis-sauber",
+    "storage_bucket": "accident-analysis-sauber.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:698966578503:android:3c0604be95a56d0ab56862",
+        "android_client_info": {
+          "package_name": "com.accana.sauber"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "698966578503-revj0ru1o1mnhlf10o6ot7h9tm4u6l61.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB459ENjhlmGnNAb46szscQmvUPza5kd9w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "698966578503-revj0ru1o1mnhlf10o6ot7h9tm4u6l61.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:698966578503:android:3fa3deedbae385ceb56862",
+        "android_client_info": {
+          "package_name": "com.rakshak.vaahan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "698966578503-revj0ru1o1mnhlf10o6ot7h9tm4u6l61.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB459ENjhlmGnNAb46szscQmvUPza5kd9w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "698966578503-revj0ru1o1mnhlf10o6ot7h9tm4u6l61.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".data.addCar">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/round_bg"
+        style="@style/sauber"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="70dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200sp"
+            android:background="@drawable/round_bg"
+            style="@style/onSauber"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="30dp"
+            android:contentDescription="Image" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="250dp"
+            android:layout_marginRight="30dp"
+            android:hint="@string/reg_num"
+            android:inputType="text|textCapCharacters"
+            android:textColorHint="#212121"
+            tools:ignore="VisualLintTextFieldSize"
+            android:autofillHints="" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="310dp"
+            android:layout_marginRight="30dp"
+            android:hint="@string/mob"
+            android:inputType="phone"
+            android:textColorHint="#212121"
+            tools:ignore="VisualLintTextFieldSize"
+            android:autofillHints="" />
+
+        <Button
+            android:id="@+id/carAddBtn"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            style="@style/onSauber"
+            android:onClick="executeLoginAction"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="380dp"
+            android:text="@string/cont" android:textSize="24sp"
+            android:textStyle="bold"
+            android:contentDescription="@string/adding_car"
+            tools:ignore="VisualLintButtonSize" />
+    </FrameLayout>
+</FrameLayout>

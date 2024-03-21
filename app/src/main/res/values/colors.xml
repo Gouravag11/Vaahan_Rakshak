@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="dear_rosaline">#A48887</color>
+    <color name="secret_society">#484D5A</color>
+    <color name="anecdote">#2E2E35</color>
+    <color name="teal_sorrow">#008080</color>
+    <color name="loved_lost_club">#E5D7D4</color>
+    <color name="even_angels_cry">#005221</color>
+    <color name="london_house">#233E59</color>
+    <color name="west_deserts">#FAD5A5</color>
+    <color name="storms_in_paris">#2E6464</color>
+    <color name="umberwine">#635147</color>
+</resources>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.report.ReportFragment">
+
+    <TextView
+        android:id="@+id/reportText"
+        style="@style/sauber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/round_bg"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="@string/report_an_accident"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/reportImage"
+        android:layout_width="300sp"
+        android:layout_height="300sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/round_bg"
+        style="@style/onSauber"
+        android:contentDescription="@string/report_image"/>
+
+    <Button
+        android:id="@+id/reportLocation"
+        android:layout_width="300sp"
+        android:layout_height="50sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="430dp"
+        android:background="@drawable/round_bg"
+        style="@style/onSauber"
+        android:contentDescription=" "/>
+
+    <EditText
+        android:id="@+id/reportRegNo"
+        android:layout_width="300sp"
+        android:layout_height="50sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="500dp"
+        android:hint="@string/registration_number_of_vehicle"
+        android:textSize="20sp"
+        android:autofillHints=""
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/reportSubmitBtn"
+        android:layout_width="300sp"
+        android:layout_height="50sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="560dp"
+        android:background="@drawable/round_bg"
+        style="@style/onSauber"
+        android:text="@string/submit"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:contentDescription="@string/submit_report"/>
+
+
+</FrameLayout>
