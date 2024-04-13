@@ -24,6 +24,7 @@
 
     <style name="onSauber" parent="Theme.AppCompat.DayNight.DarkActionBar">
         <item name="backgroundTint">@color/london_house</item>
+        <item name="android:backgroundTint">@color/london_house</item>
     </style>
 
 </resources>

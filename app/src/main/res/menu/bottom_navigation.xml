@@ -9,9 +9,9 @@
             android:icon="@drawable/home"
             android:title="Home" />
         <item
-            android:id="@+id/nav_reflow"
-            android:icon="@drawable/ic_gallery_black_24dp"
-            android:title="@string/menu_reflow" />
+            android:id="@+id/nav_addCar"
+            android:icon="@drawable/car"
+            android:title="@string/menu_addC" />
         <item
             android:id="@+id/nav_report"
             android:icon="@drawable/report"

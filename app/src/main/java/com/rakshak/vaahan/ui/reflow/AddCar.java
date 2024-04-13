@@ -4,28 +4,25 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.rakshak.vaahan.databinding.FragmentReflowBinding;
+import com.rakshak.vaahan.databinding.AddCarBinding;
 
-public class ReflowFragment extends Fragment {
+public class AddCar extends Fragment {
 
-    private FragmentReflowBinding binding;
+    private AddCarBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        ReflowViewModel reflowViewModel =
-                new ViewModelProvider(this).get(ReflowViewModel.class);
 
-        binding = FragmentReflowBinding.inflate(inflater, container, false);
+        binding = AddCarBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        final TextView textView = binding.textReflow;
-        reflowViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+//        final TextView textView = binding.textReflow;
+//        reflowViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
         return root;
     }
 

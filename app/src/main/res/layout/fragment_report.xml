@@ -24,29 +24,36 @@
     <ImageButton
         android:id="@+id/reportImage"
         android:layout_width="300sp"
-        android:layout_height="300sp"
+        android:layout_height="200sp"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="100dp"
         android:background="@drawable/round_bg"
+        android:padding="10dp"
         style="@style/onSauber"
+        android:src="@mipmap/camera"
         android:contentDescription="@string/report_image"/>
 
     <Button
         android:id="@+id/reportLocation"
-        android:layout_width="300sp"
-        android:layout_height="50sp"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="430dp"
-        android:background="@drawable/round_bg"
         style="@style/onSauber"
-        android:contentDescription=" "/>
+        android:layout_width="300sp"
+        android:layout_height="70sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="330dp"
+        android:background="@drawable/round_bg"
+        android:contentDescription=" "
+        android:text="Location"
+        android:textSize="30sp"
+        app:icon="@drawable/location"
+        app:iconGravity="textStart"
+        app:iconPadding="10dp" />
 
     <EditText
         android:id="@+id/reportRegNo"
         android:layout_width="300sp"
         android:layout_height="50sp"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="500dp"
+        android:layout_marginTop="420dp"
         android:hint="@string/registration_number_of_vehicle"
         android:textSize="20sp"
         android:autofillHints=""
@@ -57,7 +64,7 @@
         android:layout_width="300sp"
         android:layout_height="50sp"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="560dp"
+        android:layout_marginTop="500dp"
         android:background="@drawable/round_bg"
         style="@style/onSauber"
         android:text="@string/submit"

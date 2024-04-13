@@ -12,15 +12,15 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/nav_reflow"
-        android:name="com.rakshak.vaahan.ui.reflow.ReflowFragment"
-        android:label="@string/menu_reflow"
-        tools:layout="@layout/fragment_reflow" />
+        android:id="@+id/nav_addCar"
+        android:name="com.rakshak.vaahan.ui.reflow.AddCar"
+        android:label="@string/menu_addC"
+        tools:layout="@layout/add_cars" />
 
     <fragment
         android:id="@+id/nav_report"
         android:name="com.rakshak.vaahan.ui.report.ReportFragment"
-        android:label="Report"
+        android:label="@string/menu_report"
         tools:layout="@layout/fragment_report" />
 
     <fragment

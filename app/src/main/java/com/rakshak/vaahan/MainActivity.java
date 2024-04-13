@@ -8,7 +8,6 @@ import android.app.NotificationManager;
 import android.content.ContentValues;
 import android.content.Context;
 import android.content.DialogInterface;
-import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
@@ -19,14 +18,9 @@ import android.util.Log;
 import android.view.MenuItem;
 import android.view.Menu;
 import android.view.View;
-import android.widget.ArrayAdapter;
-import android.widget.Spinner;
 import android.widget.Toast;
 
-import com.google.android.gms.tasks.OnCompleteListener;
-import com.google.android.gms.tasks.Task;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
-import com.google.android.material.navigation.NavigationView;
 
 import androidx.annotation.NonNull;
 import androidx.core.app.ActivityCompat;
@@ -45,12 +39,10 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 import com.rakshak.vaahan.data.DatabaseHelper;
-import com.rakshak.vaahan.data.addCar;
 import com.rakshak.vaahan.databinding.ActivityMainBinding;
 import com.rakshak.vaahan.ui.home.HomeFragment;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 
@@ -82,16 +74,16 @@ public class MainActivity extends AppCompatActivity {
                 PackageManager.PERMISSION_GRANTED);
 
         setSupportActionBar(binding.appBarMain.toolbar);
-        if (binding.appBarMain.fab != null) {
-            binding.appBarMain.fab.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                    highAlert();
-//                    Toast.makeText(MainActivity.this, "Loading...", Toast.LENGTH_SHORT).show();
-//                    startActivity(new Intent(MainActivity.this, addCar.class));
-                }
-            });
-        }
+//        if (binding.appBarMain.fab != null) {
+//            binding.appBarMain.fab.setOnClickListener(new View.OnClickListener() {
+//                @Override
+//                public void onClick(View view) {
+//                    highAlert();
+////                    Toast.makeText(MainActivity.this, "Loading...", Toast.LENGTH_SHORT).show();
+////                    startActivity(new Intent(MainActivity.this, addCar.class));
+//                }
+//            });
+//        }
 
 
 
@@ -103,7 +95,7 @@ public class MainActivity extends AppCompatActivity {
         BottomNavigationView bottomNavigationView = binding.appBarMain.contentMain.bottomNavView;
         if (bottomNavigationView != null) {
             mAppBarConfiguration = new AppBarConfiguration.Builder(
-                    R.id.nav_home, R.id.nav_reflow, R.id.nav_report)
+                    R.id.nav_home, R.id.nav_addCar, R.id.nav_report)
                     .build();
             NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
             NavigationUI.setupWithNavController(bottomNavigationView, navController);

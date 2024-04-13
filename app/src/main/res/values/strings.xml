@@ -9,8 +9,8 @@
     <string name="fab_content">Fab Action</string>
     <string name="image_viewww">Something</string>
 
-    <string name="menu_transform">Transform</string>
-    <string name="menu_reflow">Reflow</string>
+    <string name="menu_report">Report Accident</string>
+    <string name="menu_addC">Add Vehicle</string>
     <string name="menu_slideshow">Slideshow</string>
     <string name="menu_settings">Settings</string>
 
@@ -33,8 +33,10 @@
     <string name="drStatusSt">Status: Not Driving</string>
     <string name="reg_num">Registration Number</string>
     <string name="mob">Mobile Number</string>
+    <string name="otp">Enter OTP</string>
     <string name="verify_captcha">Verify Captcha</string>
     <string name="cont">Continue</string>
+    <string name="sendOTP">Send OTP</string>
 
     <string name="default_web_client_id">GOOGLE CLOUD 0Auth 2.0 CLIENT ID GOES HERE</string>
     <string name="report_an_accident">Report an Accident !!</string>
