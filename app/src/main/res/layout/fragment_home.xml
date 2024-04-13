@@ -43,6 +43,23 @@
         android:layout_marginTop="200dp"
         android:layout_gravity="center_horizontal"/>
 
+    <androidx.cardview.widget.CardView
+        android:layout_width="300sp"
+        android:layout_height="300sp"
+        android:layout_marginTop="280dp"
+        app:cardCornerRadius="10dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/round_bg">
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/round_bg"
+            style="@style/onSauber"
+            android:src="@raw/bengaluru"/>
+
+    </androidx.cardview.widget.CardView>
+
 
 
 </FrameLayout>
