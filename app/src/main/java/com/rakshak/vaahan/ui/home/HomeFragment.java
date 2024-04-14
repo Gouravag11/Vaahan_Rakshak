@@ -1,6 +1,8 @@
 package com.rakshak.vaahan.ui.home;
 
+import android.media.MediaPlayer;
 import android.os.Bundle;
+import android.os.Handler;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -17,6 +19,7 @@ import androidx.appcompat.widget.SwitchCompat;
 import androidx.core.content.res.ResourcesCompat;
 import androidx.fragment.app.Fragment;
 
+import com.rakshak.vaahan.MainActivity;
 import com.rakshak.vaahan.R;
 import com.rakshak.vaahan.data.DatabaseHelper;
 import com.rakshak.vaahan.databinding.FragmentHomeBinding;
@@ -28,6 +31,7 @@ import java.util.List;
 public class HomeFragment extends Fragment {
 
     private FragmentHomeBinding binding;
+    MediaPlayer mediaPlayer;
     SwitchCompat driveBtn;Spinner dropdown;TextView driveStatus;DatabaseHelper mydb;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
@@ -39,6 +43,7 @@ public class HomeFragment extends Fragment {
         dropdown = binding.carListShow;
         driveStatus = binding.drvStatus;
         mydb = new DatabaseHelper(getContext());
+        mediaPlayer = MediaPlayer.create(getContext(), R.raw.accident_alert);
 
 
         updateCars();
@@ -47,6 +52,15 @@ public class HomeFragment extends Fragment {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 if(isChecked){
+                    Handler h = new Handler();
+                    h.postDelayed(new Runnable() {
+                        @Override
+                        public void run() {
+                            ((MainActivity) getActivity()).highAlert();
+                            mediaPlayer.start();
+                        }
+                    },5000);
+
                     driveStatus.setText(R.string.drStatusDr);
                 }else {
                     driveStatus.setText("");
