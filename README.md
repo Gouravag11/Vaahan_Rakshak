@@ -1,5 +1,5 @@
 
-Addingg Vehicle:
+Adding Vehicle:
 -Add any Vehicle to your account by entering its registration number and owner's registered mobile number. 
 -The owner recieves a OTP if details match. 
 -Proceed to add upto 5 vehicles to your account.
